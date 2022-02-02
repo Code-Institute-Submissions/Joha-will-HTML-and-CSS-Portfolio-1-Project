@@ -45,6 +45,39 @@
 
 - Home Page Wireframe 
 
-![mainpagevincent.png](./HTML-AND-CSS-PORTFOLIO-1-PROJECT/WireframePics/mainpagevincent.png)
 
-<div> <img src="https://github.com/Joha-will/HTML-and-CSS-Portfolio-1-Project.git/MainPageVincent.png" alt="Wireframe shwowing main page"> </div>
+![MainpageLS](https://user-images.githubusercontent.com/98041941/152192056-613f483c-e603-4f8c-b210-35a2a941a27e.png)
+
+
+
+
+- Donate Page Wireframe 
+
+
+![Donate (2)](https://user-images.githubusercontent.com/98041941/152190757-c7417cac-e4c7-4f7f-8d39-4dd996586cf1.png)
+
+
+
+
+
+- Gallery Page Wireframe
+
+
+
+![Gallery](https://user-images.githubusercontent.com/98041941/152191151-21583ea1-d375-4ee4-8acb-48359a1dfc1e.png)
+
+
+
+
+- Mobile Wireframe 
+
+
+![MobileWebpage](https://user-images.githubusercontent.com/98041941/152192901-b4c34153-b894-4bd7-8e39-0ba79731b629.png)
+
+
+
+
+
+
+
+
