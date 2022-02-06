@@ -15,12 +15,12 @@
         2. This site consists of three pages:
         
         
-                (a). The main page, this page will include the majority of the information about the volcano which can be accessed by scrolling from top to bottom.
+           (a). The main page, this page will include the majority of the information about the volcano which can be accessed by scrolling from top to bottom.
         
         
-                (b). The next page is the gallery, this can be accessed in the navigation bar, this is located in the right of the main page and the donation page. The gallery consists of multiple photographs and videos of the volcano.
+           (b). The next page is the gallery, this can be accessed in the navigation bar, this is located in the right of the main page and the donation page. The gallery consists of multiple photographs and videos of the volcano.
 
-                (c). The final pagge is the donation page. This can be accessed in the navigation bar, this is located in the top right corner of the main page and the gallery page.
+           (c). The final pagge is the donation page. This can be accessed in the navigation bar, this is located in the top right corner of the main page and the gallery page.
 
         3. For users that are curious about the website's social media, this can be found at the bottom of the main page.
 
@@ -30,49 +30,55 @@
 
         1. For users returning to the website, there will be frequent uploads of new content including more photographs, videos and information. Also new content can be found on the website's social media.
 
-        2. A contact us tab is located at the bottom of the main page including the website's email address. This enables returning users to get in contact easily with any questions or queries. An alternative way to get in contact is by using the feedback form located on the donation page when making donation.
+        2. Users can easily get in contact with us, by completing form located on the donation page.
 
     - #### Frequent visitor goals
 
 
         1. There is an option to sign up to a newsletter for frequent users which includes any major updates or uploads to the website. This can be found at the bottom of the main page.
 
-        2. There is an alternative check box option when completing the donation form to receive updates on new uploads and content which gives frequent users the chance to stay up to date with the website.
+        2. There is an alternative check box option when completing the contact us form on the donation page, to receive updates on new uploads and content which gives frequent users the chance to stay up to date with the website.
 
 
 
 ## Wireframes
 
-- Home Page Wireframe 
-
-
-![MainpageLS](https://user-images.githubusercontent.com/98041941/152192056-613f483c-e603-4f8c-b210-35a2a941a27e.png)
+- **Home Page Wireframe 
 
 
 
-
-- Donate Page Wireframe 
-
-
-![Donate (2)](https://user-images.githubusercontent.com/98041941/152190757-c7417cac-e4c7-4f7f-8d39-4dd996586cf1.png)
+![Main page of Soufrière Saint Vincent](https://user-images.githubusercontent.com/98041941/152705346-f0fe788b-56c2-47c7-8a37-2cb0a155cc7f.png)
 
 
 
 
-
-- Gallery Page Wireframe
-
-
-
-![Gallery](https://user-images.githubusercontent.com/98041941/152191151-21583ea1-d375-4ee4-8acb-48359a1dfc1e.png)
+- **Donate Page Wireframe 
 
 
 
+![Donate](https://user-images.githubusercontent.com/98041941/152705337-6a9e11f3-9b12-4df9-aecf-135523574cd3.png)
 
-- Mobile Wireframe 
 
 
-![MobileWebpage](https://user-images.githubusercontent.com/98041941/152192901-b4c34153-b894-4bd7-8e39-0ba79731b629.png)
+
+
+- **Gallery Page Wireframe
+
+
+
+![Gallery](https://user-images.githubusercontent.com/98041941/152705330-f60239b1-2c03-423b-abf1-745578271963.png)
+
+
+
+
+
+- **Mobile Wireframe 
+
+
+![Mobile Web page](https://user-images.githubusercontent.com/98041941/152705262-08e8d1b6-35a2-4ed4-930a-264f5c42152f.png)
+
+
+![Mobile Gallery](https://user-images.githubusercontent.com/98041941/152705272-7a9f9ef9-b33d-40b5-a539-5be425a4e7b1.png)
 
 
 
