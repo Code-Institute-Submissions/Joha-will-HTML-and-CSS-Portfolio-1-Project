@@ -15,12 +15,12 @@
         2. This site consists of three pages:
         
         
-           (a). The main page, this page will include the majority of the information about the volcano which can be accessed by scrolling from top to bottom.
+           (*). The main page, this page will include the majority of the information about the volcano which can be accessed by scrolling from top to bottom.
         
         
-           (b). The next page is the gallery, this can be accessed in the navigation bar, this is located in the right of the main page and the donation page. The gallery consists of multiple photographs and videos of the volcano.
+           (*). The next page is the gallery, this can be accessed in the navigation bar, this is located in the right of the main page and the donation page. The gallery consists of multiple photographs and videos of the volcano.
 
-           (c). The final pagge is the donation page. This can be accessed in the navigation bar, this is located in the top right corner of the main page and the gallery page.
+           (*). The final pagge is the donation page. This can be accessed in the navigation bar, this is located in the top right corner of the main page and the gallery page.
 
         3. For users that are curious about the website's social media, this can be found at the bottom of the main page.
 
@@ -43,7 +43,7 @@
 
 ## Wireframes
 
-- **Home Page Wireframe 
+- **Home Page Wireframe**
 
 
 
@@ -52,7 +52,7 @@
 
 
 
-- **Donate Page Wireframe 
+- **Donate Page Wireframe** 
 
 
 
@@ -62,7 +62,7 @@
 
 
 
-- **Gallery Page Wireframe
+- **Gallery Page Wireframe**
 
 
 
@@ -72,7 +72,7 @@
 
 
 
-- **Mobile Wireframe 
+- **Mobile Wireframe** 
 
 
 ![Mobile Web page](https://user-images.githubusercontent.com/98041941/152705262-08e8d1b6-35a2-4ed4-930a-264f5c42152f.png)
