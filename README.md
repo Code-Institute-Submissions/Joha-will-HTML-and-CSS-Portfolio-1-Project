@@ -15,12 +15,12 @@
         2. This site consists of three pages:
         
         
-           (*). The main page, this page will include the majority of the information about the volcano which can be accessed by scrolling from top to bottom.
+           (1). The main page, this page will include the majority of the information about the volcano which can be accessed by scrolling from top to bottom.
         
         
-           (*). The next page is the gallery, this can be accessed in the navigation bar, this is located in the right of the main page and the donation page. The gallery consists of multiple photographs and videos of the volcano.
+           (2). The next page is the gallery, this can be accessed in the navigation bar, this is located in the right of the main page and the donation page. The gallery consists of multiple photographs and videos of the volcano.
 
-           (*). The final pagge is the donation page. This can be accessed in the navigation bar, this is located in the top right corner of the main page and the gallery page.
+           (3). The final page is the donation page. This can be accessed in the navigation bar, this is located in the top right corner of the main page and the gallery page.
 
         3. For users that are curious about the website's social media, this can be found at the bottom of the main page.
 
