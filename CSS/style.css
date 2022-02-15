@@ -8,10 +8,55 @@ body {
     text-align: center;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 nav {
     list-style-type: none;
 } 
 
+
+
 .text-right {
     text-align: right;
 }
+
+form input[type=submit] {
+    color: white;
+    background-color: skyblue;
+    border-color:whitesmoke ;
+    border: width 0.2em;
+}
+
+form input[type=submit]:hover {
+    color:black;
+    background-color: orange;
+}
+
+
+.news-letter {
+    color:white;
+    font-weight: bolder;
+    border-color:white
+
+}
+
+footer {
+    background-color:#28333b;
+}
+
+
+
+footer a:hover {
+    color: orange;
+
+}
+
+
+footer a, #rights {
+    color: white;
+}
+
+
+
