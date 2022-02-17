@@ -2,15 +2,62 @@ body {
     padding: 0;
     margin: 0;
     background-color: rgb(226,226,220);
+    font-size: 1.3rem;
+    font-family:'Times New Roman', 'Times, serif', cursive;
 }
+
+
+
+.back-image {
+    
+    width:100%;
+    height:30vh;
+    position: relative;
+    background-position: 100%;
+    background-size: cover;
+    
+
+
+}
+
+
 
 .text-center {
     text-align: center;
+    
 }
+
+
 
 .bold {
     font-weight: bold;
 }
+
+
+.bigphont {
+
+    font-size: 2rem;
+    font-family:'Arial Narrow Bold', 'Impact' sans-serif;
+
+    
+    
+}
+
+.mediumphont {
+
+    font-size: 20px;
+}
+
+
+
+nav ul {
+
+    font-family:'Times New Roman', 'Times, serif', cursive;
+    list-style-type: none;
+}
+
+
+
 
 nav {
     list-style-type: none;
@@ -18,12 +65,58 @@ nav {
 
 
 
+
+
+.row-image {
+    display: inline-block;
+    
+}
+
+
+
+
+
+#prime-images img {
+    padding: 40px 0;
+    margin: 0% 5% 0% 5%;
+    border: 20px #28333b;
+    border-radius: 01.3rem;
+}
+
+
+
+
+div video {
+    padding: 50px 0;
+    margin: auto;
+    border: 20px #28333b;
+    border-radius: 01.3rem;
+    height: 50%;
+}
+
+
+
+
+
+
+
 .text-right {
     text-align: right;
 }
 
+section form {
+    width:800px;
+    height:90%;
+    font-size: 20px;
+}
+
+#lname {
+    justify-content: center;
+}
+
+
 form input[type=submit] {
-    color: white;
+    color: #28333b;
     background-color: skyblue;
     border-color:whitesmoke ;
     border: width 0.2em;
@@ -32,6 +125,24 @@ form input[type=submit] {
 form input[type=submit]:hover {
     color:black;
     background-color: orange;
+}
+
+
+#paypal-button a {
+    background-color: skyblue;
+    border-radius: 4px;
+    border-width: 20px;
+    padding: 0.90rem 0.50rem 0.60rem 0.50rem;
+    color:#28333b;
+    text-decoration: none;
+    
+    
+    
+}
+
+#paypal-button a:hover {
+    background-color: orange;
+    
 }
 
 
@@ -44,6 +155,8 @@ form input[type=submit]:hover {
 
 footer {
     background-color:#28333b;
+    width: 100% ;
+
 }
 
 
@@ -58,5 +171,21 @@ footer a, #rights {
     color: white;
 }
 
+.v-h {
+    height: 5vh;
+    margin: 0;
+    padding-bottom: 40px;
+
+}
+
+hr {
+    width: auto;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+.text-white {
+    color:white;
+}
 
 
