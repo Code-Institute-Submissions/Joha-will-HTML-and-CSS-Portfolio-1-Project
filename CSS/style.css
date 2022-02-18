@@ -5,7 +5,7 @@ body {
     background-color: rgb(226,226,220);
     font-size: 1.3rem;
     font-family:'Times New Roman', 'Times, serif', cursive;
-    height: 100%;
+    
     
 }
 
@@ -71,9 +71,9 @@ header .back-image h1 {
 #nav-span {
     text-align: right;
     text-decoration: none;
-    display:contents;
+   
     list-style-type: none;
-    padding:1.1rem
+    padding:1.1rem;
 }
 
 
@@ -105,23 +105,58 @@ figure img {
 
 
 
+.firstgroup img {
+
+    width: 50%;
+    height: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+   
+
+
+
+}
+
+
+
+.secondgroup img {
+
+    width: 100%;
+    height: 30rem;
+    
+
+}
+
+.thirdgroup img {
+   
+    width:100%;
+    height: 30rem;
+    
+}
+
+
+
 
 #prime-images img {
-    padding: 40px 0;
-    margin: 0% 5% 0% 5%;
-    border: 20px #28333b;
-    border-radius: 01.3rem;
+    width: 70%;
+    max-width: 1500px;
+    height: 45rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+
 }
 
 
 
 
 div video {
-    padding: 50px 0;
-    margin: auto;
-    border: 20px #28333b;
-    border-radius: 01.3rem;
-    height: 50%;
+    width: 70%;
+    text-align: center;
 }
 
 
@@ -169,11 +204,19 @@ section form input[type=submit] {
     color: #28333b;
     background-color: skyblue;
     border-color:#28333b ;
-    padding:1rem 5rem 1rem 5rem;
-    width:25%;
+    padding:1.5em 1em 1.5em 1em;
+    width:30%;
+    font-weight:bolder;
     
     
 }
+
+
+
+label {
+    text-align: center;
+}
+
 
 form input[type=submit]:hover {
     color:black;
@@ -181,7 +224,10 @@ form input[type=submit]:hover {
 }
 
 
- #paypal-button {
+
+
+
+#paypal-button {
     background-color: skyblue;
     border-color: #28333b;
     border-width: 0.20rem;
@@ -192,7 +238,11 @@ form input[type=submit]:hover {
     
     
     
+    
+    
 }
+
+
 
 #paypal-button:hover {
     background-color: orange;
@@ -238,11 +288,17 @@ footer a, #rights {
 
 
 
+
+
+
 span form {
     margin-left: 80%;
     padding: auto;
 
 }
+
+
+
 
 
 span input {
@@ -253,11 +309,19 @@ span input {
 }
 
 
+
+
+
+
+
 span input[type=submit] {
     padding:0.60em 4em 0.60em 4em;
     margin-right: 60%;
     min-width:2%;
 }
+
+
+
 
 
 
@@ -272,7 +336,7 @@ span input[type=submit] {
 
 
 hr {
-    width: auto;
+    width: 100%;
 
 }
 
@@ -283,3 +347,8 @@ hr {
 }
 
 
+
+#spanners {
+
+    align-items: flex-end
+}
