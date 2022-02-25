@@ -14,38 +14,35 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
 
-        <div>
+        <div class="back-image  bigphont " style="background-image: url('assets/images/maingallery7.jpeg');">
 
-            <div class="back-image  bigphont" style="background-image: url('assets/images/maingallery7.jpeg');">
+            <div>
 
                 <h1 class="bold">Soufrière Saint Vincent</h1>
 
             </div>
 
-            <div>
-                <nav>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="gallery.html" aria-label="Link to the gallery page (link opens in a new tab)"
+                            title="Click me!">Gallery</a></li><li>
+                        <a href="donate.html" aria-label="Link to the donation page (link opens in a new tab)"
+                            title="Click me!">Donate</a></li>
+                </ul>
 
-                    <ul>
-
-                        <li><a href="gallery.html" aria-label="Link to the gallery page (link opens in a new tab)"
-                                title="Click me!">Gallery</a></li>
-                        <li><a href="donate.html" aria-label="Link to the donation page (link opens in a new tab)"
-                                title="Click me!">Donate</a></li>
-
-                    </ul>
-
-                </nav>
-            </div>
+            </nav>
 
         </div>
 
 
+
         <div class="text-center">
             <p> La Soufrière or Soufrière Saint Vincent is an active stratovolcano on the Caribbean island of Saint
-                Vincent in Saint Vincent and the Grenadines.<br> It is the highest peak on the island of Saint Vincent.
-                Based on research La Soufrière has erupted five times in the years 1718, 1812, 1902, 1997 and 2021.
+                Vincent<br> in Saint Vincent and the Grenadines. It is the highest peak on the island of Saint Vincent.
+                Based on research<br> La Soufrière has erupted five times in the years 1718, 1812, 1902, 1997 and 2021.
             </p>
         </div>
 
@@ -65,6 +62,8 @@
 
 
         <article>
+
+            <h2>1718 Eruption...</h2>
 
             <figure class="recorded-history"> <img class="home-images" src="assets/images/firsteruppic.jpg" alt=""
                     aria-labelledby="the-1718-eruption"> </figure>
@@ -92,6 +91,8 @@
         <hr>
 
         <article>
+
+            <h2> 1812 Eruption...</h2>
 
             <figure class="recorded-history"> <img class="home-images" src="assets/images/1812image.jpeg" alt=""
                     aria-labelledby="the-1812-eruption"> </figure>
@@ -133,6 +134,8 @@
 
         <article>
 
+            <h2>1902 Eruption</h2>
+
             <figure class="recorded-history"> <img class="home-images" src="assets/images/1902image.jpeg" alt=""
                     aria-labelledby="the-1902-eruption"> </figure>
 
@@ -162,6 +165,8 @@
 
         <article>
 
+            <h2> 1979 Eruption</h2>
+
             <figure class="recorded-history"> <img class="home-images" src="assets/images/1979image.jpeg" alt=""
                     aria-labelledby="the-1979-eruption"> </figure>
 
@@ -187,10 +192,13 @@
 
         <article>
 
+            <h2>2021 Eruption</h2>
+
 
         </article>
 
-        <figure> <img class="home-images" src="assets/images/2021eruption.jpeg" alt="" aria-labelledby="the-2021-eruption">
+        <figure> <img class="home-images" src="assets/images/2021eruption.jpeg" alt=""
+                aria-labelledby="the-2021-eruption">
         </figure>
 
 
@@ -214,7 +222,7 @@
 
             <iframe id="map"
                 src="https://maps.google.com/maps?q=la%20soufri%C3%A8re%20s&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                width="100%" height="500" title="Location of La Soufrière St. Vincent and the Grenadines."></iframe>
+                width="100" height="500" title="Location of La Soufrière St. Vincent and the Grenadines."></iframe>
 
         </div>
     </section>
@@ -223,43 +231,56 @@
 
     <footer>
 
-        <span class="text-center">
+        <div class="inline-block"> 
 
-            <form action="thank-up-page.html" method="get" target="_blank" class="news-letter">
+        <div>
+        <form action="thank-up-page.html" method="get" target="_blank" class="news-letter text-center">
 
-                <p class="text-trans">Subscribe To Our Newsletter</p>
-                <label for="sub-newsletter">Be the first to know about the exciting new uploads, special updates to the
-                    website and more.
-                </label>
+            <p class="text-trans">Subscribe To Our Newsletter</p>
+            <label for="sub-newsletter">Be the first to know about the exciting new uploads, special updates to the
+                website and more.
+            </label>
 
-                <input type="email" id="sub-newsletter" placeholder="Enter your email address.."
-                    name="news_letter required" width="50" height="10">
+            <input type="email" id="sub-newsletter" placeholder="Enter your email address.." name="news_letter required">
 
-                <br>
+            <br>
 
-                <input type="submit" value="Subscribe" width="50">
+            <input type="submit" value="Subscribe">
 
-            </form>
+        </form>
+        
+        </div>
 
-        </span>
+        <div id="social-media">
 
-        <a class="social-media" href=" https://www.facebook.com/"
+        <a href=" https://www.facebook.com/"
             aria-label="Find us on Facebook (link opens in a new tab)" target="_blank" title="Click me!" rel="noopener">
             Facebook</a>
-        |<span><a href="https://www.instagram.com/"
-                aria-label="Link to more photos by photographer on Instagram (link opens in a new tab)" target="_blank"
+            |<span><a href="https://www.instagram.com/" aria-label="Link to more photos by photographer on Instagram (link opens in a new tab)" target="_blank"
                 title="Click me!" rel="noopener"> Instagram</a></span>
-        | <span><a href="https://twitter.com/" aria-label="Find us on Twitter (link opens in a new tab)" target="_blank"
-                title="Click me!" rel="noopener">Twitter</a></span>
-
-
-        <span><a href="https://www.instagram.com/primewilson/"
+            |<span><a href="https://twitter.com/" aria-label="Find us on Twitter (link opens in a new tab)" target="_blank"
+                title="Click me!" rel="noopener"> Twitter</a></span>                
+                
+                
+        
+        
+                
+        <span> <a href="https://www.instagram.com/primewilson/"
                 aria-label="Link to more photos on Instagram (link opens in a new tab)" target="_blank"
-                title="Click me!" rel="noopener"> Click this link for more photos!</span>
-        <span><a href="https://en.wikipedia.org/wiki/Main_Page"
-                aria-label="Link to more history on Wikipedia (link opens in a new tab)" target="_blank"
-                title="Click me!" rel="help"> Click this link for more history on the volcano!</a></span>
+                title="Click me!" rel="noopener"> Click this link for more photos!</a>
+        
+        </span>
 
+        <span> <a href="https://en.wikipedia.org/wiki/Main_Page"
+                aria-label="Link to more history on Wikipedia (link opens in a new tab)" target="_blank"
+                title="Click me!" rel="help"> Click this link for more history on the volcano!</a>
+            
+        </span>
+
+        </div>
+
+
+        </div>
         <hr>
 
         <p id="rights"> Copyright 2022</p>
