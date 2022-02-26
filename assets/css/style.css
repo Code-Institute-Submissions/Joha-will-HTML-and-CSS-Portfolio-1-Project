@@ -1,14 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gideon+Roman&display=swap');
+
+
 body {
 
     border: none;
     margin:0;
     background-color: rgb(226,226,220);
     font-size: 1.4rem;
-    font-family:'georgia', 'Times, serif', cursive;
+    font-family:'Gideon Roman', cursive;
     line-height:2;
     
 }
 
+/* header links */
+
+header div h1 {
+    text-align: center;
+    margin-top: 2em;
+    color:black;
+    background-color: white;
+    width: 60%;
+    
+
+}
+
+
+
+
+h1 a {
+    text-decoration: none;
+    color:#28333b;
+}
 
 
 header div .back-image {
@@ -16,15 +38,18 @@ header div .back-image {
     width: 100%;
 }
 
+#static {
+    position: relative;
+}
+
+
 
 
 .back-image {
-    
-    min-width: 300px;
-    max-width:100em;
+
     width: 100%;
     max-height:60vh;
-    background-position: center 50%;
+    background-position: center 45%;
     background-size:cover ;
     background-repeat: no-repeat;
     border-color:whitesmoke;
@@ -34,17 +59,55 @@ header div .back-image {
 }
 
 
+#header-width {
+    width: 30%;
+    text-align: right;
+}
+
+article h2 {
+    opacity: 0.50;
+}
+
+
+
+.bigphont {
+
+    font-size: 2rem;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 5px;
+
+}
+
+.mediumphont {
+
+    font-size: 1em;
+    text-decoration: underline;
+
+}
+
+
+
+/* Nav bar */
+
 nav ul {
     list-style: none;
     text-align: right;
     padding:0;
-    margin-top: 5.2rem;
+    margin-top: 9rem;
+    position: absolute;
+    left:10rem;
+    right: 0.20rem;
+    top:5.3rem;
+
+    
+ 
 }
 
 nav li {
     display: inline-block;
     background-color: skyblue;
     margin-bottom: 10rem;
+    margin-right: 1rem;
     border: #28333b;
     border-width: 3px;
     border-style: inset;
@@ -55,7 +118,7 @@ nav a {
     padding: 0 5px 0 5px;
     text-decoration: none;
     color:black;
-    display:block
+    display:block;
 
 }
 
@@ -65,24 +128,6 @@ nav a:hover {
 }
 
 
-header div h1 {
-    text-align: center;
-    margin-top: 3em;
-    background-color: white;
-    color:#28333b;
-    width: 60%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-
-#header-width {
-    width: 30%;
-    text-align: right;
-}
-
-article h2 {
-    opacity: 0.50;
-}
 
 .inline-block {
     display: inline-block;
@@ -106,46 +151,45 @@ article h2 {
     font-weight: bold;
 }
 
-
-
-.bigphont {
-
-    font-size: 2rem;
-    
-
-    
-    
+section article .float-left {
+    float: left;
 }
 
-.mediumphont {
-
-    font-size: 1em;
-    text-decoration: underline;
-
+section article .float-right {
+    float: right;
 }
 
+section article .margin-left {
+    margin-left: 5%;
+}
+section article .margin-right {
+    margin-right: 5%;
+}
+
+.five-eruptions {
+    width: 100%;
+    display: inline-block;
+}
 
 
 .home-images {
-    width: 20em;
+    width: 20rem;
     height: 30rem;
     border-style: outset;
-    margin:auto;
+    margin-top: 40px;
+    float: right;
     
 }
 
 .all-paragraphs {
-    width:55%;
-    vertical-align:top;
-    text-align: left;
-    margin-top: 1.5rem;
-    margin-left: 2rem;
+    width:60%;
     line-height:2.15;
+    float: left;
 }   
 
 
 .recorded-history {
-    display: inline-block;
+    display: block;
 }
 
 
@@ -291,8 +335,10 @@ section form input[type=submit] {
     border-color:#28333b ;
     padding:1.5em 1em 1.5em 1em;
     width:30%;
-    font-weight:bolder;
+    font-weight:bold;
     min-width: 6em;
+    font-family:'Anton', sans-serif;;
+    font-size: medium;
     
     
 }
