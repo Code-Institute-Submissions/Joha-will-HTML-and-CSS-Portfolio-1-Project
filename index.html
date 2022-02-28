@@ -16,23 +16,24 @@
 <body>
     <header id="header">
 
-        <div class="back-image  bigphont" id="static" style="background-image: url('assets/images/maingallery7.jpeg');">
+        <div class="back-image  bigphont"  style="background-image: url('assets/images/maingallery7.jpeg');">
 
             <div>
 
-                <h1 class="bold background-color"> <a href="index.html" > Soufrière Saint Vincent </a></h1>
+                <h1 id="home-heading" class="bold background-color"> <a href="index.html"> Soufrière Saint Vincent </a></h1>
+
+                <nav id="nav-bar">
+                    <ul>
+                        <li>
+                            <a href="gallery.html" aria-label="Link to the gallery page (link opens in a new tab)"
+                                title="Click me!">Gallery</a></li>
+                        <li><a href="donate.html" aria-label="Link to the donation page (link opens in a new tab)"
+                                title="Click me!">Donate</a></li>
+                    </ul>
+    
+                </nav>
 
             </div>
-
-            <nav>
-                <ul>
-                    <li>
-                        <a href="gallery.html" aria-label="Link to the gallery page (link opens in a new tab)"
-                            title="Click me!">Gallery</a></li><li><a href="donate.html" aria-label="Link to the donation page (link opens in a new tab)"
-                            title="Click me!">Donate</a></li>
-                </ul>
-
-            </nav>
 
         </div>
 
@@ -64,8 +65,8 @@
 
             <h2>1718 Eruption...</h2>
 
-            <figure class="recorded-history margin-right"> <img class="home-images" src="assets/images/firsteruppic.jpg" alt=""
-                    aria-labelledby="the-1718-eruption"> </figure>
+            <figure class="recorded-history margin-right"> <img id="the-1718-img" class="home-images"
+                    src="assets/images/firsteruppic.jpg" alt="" aria-labelledby="the-1718-eruption"> </figure>
 
             <div class="recorded-history all-paragraphs margin-left" id="the-1718-eruption">
                 <p> The first recorded explosive eruption occured on March 26th, 1718. According to an article posted on
@@ -81,20 +82,14 @@
             </div>
 
         </article>
-
-
-
-
-
-
         <hr>
 
-        <article class="five-eruptions"> 
+        <article class="five-eruptions">
 
             <h2> 1812 Eruption...</h2>
 
-            <figure class="recorded-history float-left margin-left"> <img class="home-images" src="assets/images/1812image.jpeg" alt=""
-                    aria-labelledby="the-1812-eruption"> </figure>
+            <figure class="recorded-history float-left margin-left"> <img id="the-1812-img" class="home-images"
+                    src="assets/images/1812image.jpeg" alt="" aria-labelledby="the-1812-eruption"> </figure>
 
             <div class="recorded-history all-paragraphs float-right margin-right" id="the-1812-eruption">
 
@@ -133,10 +128,10 @@
 
         <article class="five-eruptions">
 
-            <h2>1902 Eruption</h2>
+            <h2>1902 Eruption...</h2>
 
-            <figure class="recorded-history margin-right"> <img class="home-images" src="assets/images/1902image.jpeg" alt=""
-                    aria-labelledby="the-1902-eruption"> </figure>
+            <figure class="recorded-history margin-right"> <img id="the-1902-img" class="home-images" src="assets/images/1902image.jpeg"
+                    alt="" aria-labelledby="the-1902-eruption"> </figure>
 
 
             <div class="recorded-history all-paragraphs margin-left" id="the-1902-eruption">
@@ -164,10 +159,10 @@
 
         <article class="five-eruptions">
 
-            <h2> 1979 Eruption</h2>
+            <h2> 1979 Eruption...</h2>
 
-            <figure class="recorded-history float-left margin-left"> <img class="home-images" src="assets/images/1979image.jpeg" alt=""
-                    aria-labelledby="the-1979-eruption"> </figure>
+            <figure class="recorded-history float-left margin-left"> <img id="the-1979-img" class="home-images"
+                    src="assets/images/1979image.jpeg" alt="" aria-labelledby="the-1979-eruption"> </figure>
 
             <div class="recorded-history all-paragraphs float-right margin-right" id="the-1979-eruption">
                 <p> On Good Friday, April 13th, 1979 the fourth eruption of La Soufrière began. It was a Vulcanian
@@ -191,10 +186,10 @@
 
         <article class="five-eruptions">
 
-            <h2>2021 Eruption</h2>
+            <h2>2021 Eruption...</h2>
 
-            <figure class="margin-right"> <img class="home-images" src="assets/images/2021eruption.jpeg" alt=""
-                aria-labelledby="the-2021-eruption">
+            <figure class="margin-right"> <img id="the-2021-img" class="home-images" src="assets/images/2021eruption.jpeg" alt=""
+                    aria-labelledby="the-2021-eruption">
             </figure>
 
 
@@ -222,7 +217,7 @@
 
             <iframe id="map"
                 src="https://maps.google.com/maps?q=la%20soufri%C3%A8re%20s&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                width="100" height="500" title="Location of La Soufrière St. Vincent and the Grenadines."></iframe>
+                width="120" height="550" title="Location of La Soufrière St. Vincent and the Grenadines."></iframe>
 
         </div>
     </section>
@@ -231,53 +226,56 @@
 
     <footer>
 
-        <div class="inline-block"> 
+        <div class="inline-block">
 
-        <div>
-        <form action="thank-up-page.html" method="get" target="_blank" class="news-letter text-center">
+            <div>
+                <form action="thank-up-page.html" method="get" target="_blank" class="news-letter text-center">
 
-            <p class="text-trans">Subscribe To Our Newsletter</p>
-            <label for="sub-newsletter">Be the first to know about the exciting new uploads, special updates to the
-                website and more.
-            </label>
+                    <p class="text-trans">Subscribe To Our Newsletter</p>
+                    <label for="sub-newsletter">Be the first to know about the exciting new uploads, special updates to
+                        the
+                        website and more.
+                    </label>
 
-            <input type="email" id="sub-newsletter" placeholder="Enter your email address.." name="news_letter required">
+                    <input type="email" id="sub-newsletter" placeholder="Enter your email address.."
+                        name="news_letter required">
 
-            <br>
+                    <br>
 
-            <input type="submit" value="Subscribe">
+                    <input type="submit" value="Subscribe">
 
-        </form>
-        
-        </div>
+                </form>
 
-        <div id="social-media">
+            </div>
 
-        <a href=" https://www.facebook.com/"
-            aria-label="Find us on Facebook (link opens in a new tab)" target="_blank" title="Click me!" rel="noopener">
-            Facebook</a>
-            |<span><a href="https://www.instagram.com/" aria-label="Link to more photos by photographer on Instagram (link opens in a new tab)" target="_blank"
-                title="Click me!" rel="noopener"> Instagram</a></span>
-            |<span><a href="https://twitter.com/" aria-label="Find us on Twitter (link opens in a new tab)" target="_blank"
-                title="Click me!" rel="noopener"> Twitter</a></span>                
-                
-                
-        
-        
-                
-        <span> <a href="https://www.instagram.com/primewilson/"
-                aria-label="Link to more photos on Instagram (link opens in a new tab)" target="_blank"
-                title="Click me!" rel="noopener"> Click this link for more photos!</a>
-        
-        </span>
+            <div id="social-media">
 
-        <span> <a href="https://en.wikipedia.org/wiki/Main_Page"
-                aria-label="Link to more history on Wikipedia (link opens in a new tab)" target="_blank"
-                title="Click me!" rel="help"> Click this link for more history on the volcano!</a>
-            
-        </span>
+                <a href=" https://www.facebook.com/" aria-label="Find us on Facebook (link opens in a new tab)"
+                    target="_blank" title="Click me!" rel="noopener">
+                    Facebook</a>
+                |<span><a href="https://www.instagram.com/"
+                        aria-label="Link to more photos by photographer on Instagram (link opens in a new tab)"
+                        target="_blank" title="Click me!" rel="noopener"> Instagram</a></span>
+                |<span><a href="https://twitter.com/" aria-label="Find us on Twitter (link opens in a new tab)"
+                        target="_blank" title="Click me!" rel="noopener"> Twitter</a></span>
 
-        </div>
+
+
+
+
+                <span> <a href="https://www.instagram.com/primewilson/"
+                        aria-label="Link to more photos on Instagram (link opens in a new tab)" target="_blank"
+                        title="Click me!" rel="noopener"> Click this link for more photos!</a>
+
+                </span>
+
+                <span> <a href="https://en.wikipedia.org/wiki/Main_Page"
+                        aria-label="Link to more history on Wikipedia (link opens in a new tab)" target="_blank"
+                        title="Click me!" rel="help"> Click this link for more history on the volcano!</a>
+
+                </span>
+
+            </div>
 
 
         </div>
