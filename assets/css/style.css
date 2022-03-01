@@ -206,7 +206,7 @@ article {
 #map {
     border: none;
     padding: 5px 0 0 0 ;
-    margin: 0;
+    margin: 0 0 -1rem 0;
     width: 100%;
     height: 30rem;
 
@@ -255,11 +255,9 @@ section div .col-2 {
 
 
 #prime-images img {
-    width: 70%;
-    min-width: 20rem;
+    width: 60%;
     max-width: 1500px;
     height: 80%;
-    min-height: 25rem;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -272,14 +270,22 @@ section div .col-2 {
 
 
 
-div video {
-    width: 70%;
-    text-align: center;
-    display: inline-block;
+div .framed-videos {
+    width: 60%;
+    height:80%;
+    border:none;
+    padding-top: 1.5rem;
+    
 }
 
 
-
+#d-page-img {
+    display: block;
+    width:60%;
+    height: 800px;
+    margin-left:auto ;
+    margin-right: auto;
+}
 
 
 
@@ -394,9 +400,10 @@ form input[type=submit]:hover {
 footer {
     background-color:#28333b;
     width: 100%;
-    height: 30%;
+    height: 20%;
     display: block;
     padding: 0.50em;
+    font-size: medium;
 
 }
 
@@ -411,8 +418,8 @@ footer a:hover {
 
 footer a, #rights {
     color: white;
-    padding-bottom: 1em;
     padding-left: 1.5em;
+    font-size: small;
 }
 
 
@@ -420,7 +427,7 @@ footer a, #rights {
     display:inline;
     float: left;
     width: 50%;
-    margin-top:20rem;
+    margin-top:30rem;
     padding: 0;
     font-size: small;
 
@@ -429,6 +436,7 @@ footer a, #rights {
 #home-page-form {
     float: right;
     width:  20%;
+    margin-top:-5rem auto 0 auto;
     font-size: 1.4rem;
     line-height: 1.8;
 
@@ -445,6 +453,7 @@ footer a, #rights {
     border-width: 2.0px;
     border-style: solid;
     border-color: skyblue;
+    border-style: solid;
 }
 
 #home-page-form input[type=submit] {
@@ -452,11 +461,11 @@ footer a, #rights {
     color: #28333b;
     background-color: skyblue;
     border-color:#28333b ;
+    border-style:solid;
     padding:0.30rem;
     font-weight:300;
     font-family:'Anton', sans-serif;;
-    font-size: medium;
-    margin-top: -10rem;
+    font-size: small;
 }
 
 #home-page-form input[type=submit]:hover {
@@ -516,6 +525,46 @@ hr {
         padding-top:5rem ;
     }
 
+    .mediumphont {
+        font-size: medium;
+    }
+
+}
+
+
+
+@media screen and  (max-width: 800px) {
+   #sec-1 img {
+       width: 80%;
+       height: 300px;
+
+    }
+
+    #sec-2 img {
+        width:80%;
+        height: 300px;
+    }
+
+    #sec-3 img {
+        width:80%;
+        height: 300px;
+    }
+
+    #prime-images img {
+        width: 80%;
+        height: 300px;
+    }
+
+    #prime-videos iframe {
+        width: 80%;
+        height:300px;
+    }
+
+    #d-page-img {
+        width: 60%;
+        height: 300px;
+    }
+   
 }
 
     @media screen and (max-width:1000px) {
@@ -568,7 +617,7 @@ hr {
 
     #the-1718-img {
         width: 90%;
-        height: 500px;
+        height: 300px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: -3rem;
@@ -578,7 +627,7 @@ hr {
 
     #the-1812-img {
         width: 90%;
-        height: 500px;
+        height: 300px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: -3rem;
@@ -588,7 +637,7 @@ hr {
 
     #the-1902-img {
         width: 90%;
-        height: 500px;
+        height: 300px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: -3rem;
@@ -598,7 +647,7 @@ hr {
 
     #the-1979-img {
         width: 90%;
-        height: 500px;
+        height: 300px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: -3rem;
@@ -608,12 +657,48 @@ hr {
 
     #the-2021-img {
         width: 90%;
-        height: 500px;
+        height: 300px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: -3rem;
         padding:0;
         float: none;
+    }
+
+    #home-page-footer {
+        display: block ;
+    }
+
+    #home-page-form {
+        font-size: small;
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+        margin-bottom: -20rem;
+        padding: 0;
+        line-height: 2;
+    }
+    #home-page-form form {
+        text-align: left;
+    }
+
+    #home-page-form input[type=email] {
+        width: 50%;
+        text-align:left;
+        padding:10px;
+    }
+
+    #home-page-form input[type=submit] {
+        width: 30%;
+        height:2.5rem;
+        margin-top: 5px;
+    }
+        
+
+    #social-media {
+        width: 100%;
+        text-align: center;
+        display: block;
     }
 
 
