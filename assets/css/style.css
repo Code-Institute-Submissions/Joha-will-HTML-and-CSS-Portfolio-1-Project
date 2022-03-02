@@ -2,9 +2,9 @@
 
 
 body {
-
     border: none;
     margin: 0;
+    padding: 0;
     background-color: rgb(226, 226, 220);
     font-size: 1.4rem;
     font-family: 'Gideon Roman', cursive;
@@ -12,14 +12,15 @@ body {
 
 }
 
+
 /* header links */
 
 header div h1 {
     text-align: left;
-    margin-top: 5em;
+    margin-top: 2em;
     color: black;
     background-color: white;
-    width: 40%;
+    width: 50%;
 
 
 }
@@ -40,12 +41,12 @@ header div .back-image {
 }
 
 #donation-heading {
-    width: 50%;
+    width: 70%;
     text-align: left;
 }
 
 #gallery-heading {
-    width: 15%;
+    width: 20%;
 }
 
 
@@ -58,6 +59,8 @@ header div .back-image {
     background-repeat: no-repeat;
     border-color: whitesmoke;
     border-style: groove;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -104,6 +107,9 @@ article h2 {
 
 #nav-bar li {
     list-style: none;
+    border-color:#28333b;
+    border-style: solid;
+    margin-right: 1px;
 
 
 
@@ -214,7 +220,7 @@ article {
     padding: 5px 0 0 0;
     margin: 0 0 -1rem 0;
     width: 100%;
-    height: 30rem;
+    height: 20rem;
 
 }
 
@@ -339,7 +345,6 @@ section form input[type=submit] {
     border-color: #28333b;
     padding: 1.5em 1em 1.5em 1em;
     width: 30%;
-    font-weight: bold;
     min-width: 6em;
     font-family: 'Anton', sans-serif;
     ;
@@ -367,16 +372,17 @@ form input[type=submit]:hover {
 #paypal-button {
     background-color: skyblue;
     border-color: #28333b;
-    border-width: 0.20rem;
+    border-width: 2.0px;
     border-style: solid;
     padding: 0.80rem 0rem 0.50rem 0rem;
     color: #28333b;
+    font-size: medium;
     text-decoration: none;
     display: block;
     text-align: center;
     margin-left: 40%;
     margin-right: 40%;
-    min-width: 5em;
+    font-family: 'Anton', sans-serif;
 
 
 
@@ -409,8 +415,8 @@ footer {
     width: 100%;
     height: 20%;
     display: block;
-    padding: 0.50em;
     font-size: medium;
+    padding-bottom:20px;
 
 }
 
@@ -435,7 +441,7 @@ footer a,
     display: inline;
     float: left;
     width: 50%;
-    margin-top: 30rem;
+    margin-top: 12rem;
     padding: 0;
     font-size: small;
 
@@ -444,8 +450,8 @@ footer a,
 #home-page-form {
     float: right;
     width: 20%;
-    margin-top: -5rem auto 0 auto;
-    font-size: 1.4rem;
+    margin-top: -5rem 0 0 0;
+    font-size: 1rem;
     line-height: 1.8;
 
 
@@ -453,7 +459,8 @@ footer a,
 
 #home-page-form form {
     text-align: left;
-    margin-top: 5rem;
+    margin-top: -1rem;
+    margin-left: 2rem;
 }
 
 #home-page-form input[type=email] {
@@ -462,19 +469,21 @@ footer a,
     border-style: solid;
     border-color: skyblue;
     border-style: solid;
+    min-width: 8em;
 }
 
 #home-page-form input[type=submit] {
     width: 50%;
     color: #28333b;
     background-color: skyblue;
-    border-color: #28333b;
+    border-color: white;
     border-style: solid;
-    padding: 0.30rem;
+    padding: 0.40rem;
     font-weight: 300;
     font-family: 'Anton', sans-serif;
     ;
     font-size: small;
+    min-width: 5em;
 }
 
 #home-page-form input[type=submit]:hover {
@@ -513,17 +522,8 @@ hr {
         width: 100%;
     }
 
-    #home-heading {
-        font-size: 2rem;
-        width: 80%;
-        line-height: 1.0;
-        margin: 5rem 0 15rem 0.20rem;
-
-    }
-
     #gallery-heading {
-        width: 90%;
-        margin-bottom: 40;
+        width: 80%;
         font-size: 2rem;
 
     }
@@ -547,6 +547,8 @@ hr {
     #nav-bar li {
         margin-bottom: -0.5rem;
         margin-right: 0.20rem;
+        border-style: none;
+        
 
     }
 
@@ -560,7 +562,7 @@ hr {
 
     #donation-paragraph {
         width: 100%;
-        text-align: center;
+        text-align: left;
     }
 
 }
@@ -568,11 +570,13 @@ hr {
 
 
 @media screen and (max-width: 800px) {
+    
     #sec-1 img {
         width: 80%;
         height: 300px;
         margin-left: auto;
         margin-right: auto;
+        
 
     }
 
@@ -607,14 +611,28 @@ hr {
         height: 300px;
     }
 
+    #paypal-button {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        width: 50%;
+    }
+
 }
 
 @media screen and (max-width:1000px) {
 
+    #home-heading {
+        font-size: 2rem;
+        width: 90%;
+        line-height: 1.0;
+        margin-top: 2rem;
+}
+
     #the-1718-eruption {
         width: 100%;
         height: auto;
-        text-align: center;
+        text-align: left;
         margin: 0;
         padding: 0;
         font-size: medium;
@@ -623,7 +641,7 @@ hr {
     #the-1812-eruption {
         width: 100%;
         height: auto;
-        text-align: center;
+        text-align: left;
         margin: 0;
         padding: 0;
         font-size: medium;
@@ -633,7 +651,7 @@ hr {
     #the-1902-eruption {
         width: 100%;
         height: auto;
-        text-align: center;
+        text-align: left;
         margin: 0;
         padding: 0;
         font-size: medium;
@@ -642,7 +660,7 @@ hr {
     #the-1979-eruption {
         width: 100%;
         height: auto;
-        text-align: center;
+        text-align: left;
         margin: 0;
         padding: 0;
         font-size: medium;
@@ -651,7 +669,7 @@ hr {
     #the-2021-eruption {
         width: 100%;
         height: auto;
-        text-align: center;
+        text-align: left;
         margin: 0;
         padding: 0;
         font-size: medium;
@@ -723,6 +741,7 @@ hr {
 
     #home-page-form form {
         text-align: left;
+        margin-top: -1rem;
     }
 
     #home-page-form input[type=email] {
@@ -735,6 +754,7 @@ hr {
         width: 30%;
         height: 2.5rem;
         margin-top: 5px;
+        
     }
 
 
@@ -742,6 +762,7 @@ hr {
         width: 100%;
         text-align: center;
         display: block;
+        margin-top: 15rem;
     }
 
 
