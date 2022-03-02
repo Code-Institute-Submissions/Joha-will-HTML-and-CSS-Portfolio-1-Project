@@ -43,9 +43,34 @@
 
 ## Wireframes
 
-- **Access wireframes from the link below**
+- **Home Page Wireframe**
 
-    [Link to wireframes](https://github.com/Joha-will/HTML-and-CSS-Portfolio-1-Project/blob/main/doc/wireframe.md)
+    [Link home page wireframes](https://github.com/Joha-will/HTML-and-CSS-Portfolio-1-Project/blob/main/doc/wireframe.md)
+
+- **Mobile Wireframe**
+
+    [Link home page wireframes](https://github.com/Joha-will/HTML-and-CSS-Portfolio-1-Project/blob/main/doc/wireframe.md)
+
+- **Donation Page Wireframe**
+
+    [Link home page wireframes](https://github.com/Joha-will/HTML-and-CSS-Portfolio-1-Project/blob/main/doc/wireframe.md)
+
+
+## Features 
+
+    -re
+
+
+## Technologies Used
+------
+
+
+### Languages Used
+
+- **HTML5**
+- **CSS3**
+
+### Frameworks, Li
 
 
 

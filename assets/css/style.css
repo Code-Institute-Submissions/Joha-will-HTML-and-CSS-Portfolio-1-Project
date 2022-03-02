@@ -258,8 +258,6 @@ section div .col-2 {
 .section-1-gallery img {
     width: 100%;
     height: 30rem;
-    display: inline-block;
-    text-align: center;
 }
 
 
@@ -280,7 +278,10 @@ section div .col-2 {
 
 }
 
-
+#prime-videos {
+    width: 100%;
+    
+}
 
 
 div .framed-videos {
@@ -288,6 +289,7 @@ div .framed-videos {
     height: 80%;
     border: none;
     padding-top: 1.5rem;
+    margin: 0 20%;
 
 }
 
@@ -570,12 +572,11 @@ hr {
 
 
 @media screen and (max-width: 800px) {
-    
     #sec-1 img {
         width: 80%;
         height: 300px;
-        margin-left: auto;
-        margin-right: auto;
+        float: none;
+        margin-left: -3%;
         
 
     }
@@ -583,15 +584,14 @@ hr {
     #sec-2 img {
         width: 80%;
         height: 300px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: -3%;
     }
 
     #sec-3 img {
         width: 80%;
         height: 300px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: -3%;
+        
     }
 
     #prime-images img {
@@ -604,6 +604,7 @@ hr {
     #prime-videos iframe {
         width: 80%;
         height: 300px;
+        margin: 0 10%;
     }
 
     #d-page-img {
