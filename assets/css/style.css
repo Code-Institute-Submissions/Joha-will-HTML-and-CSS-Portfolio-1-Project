@@ -323,8 +323,11 @@ section form {
 }
 
 textarea {
-    width: 100%;
+    width: 82%;
     padding-right: 10rem;
+    border-width:2px ;
+    border-style: solid;
+    border-color: #28333b;
 }
 
 
@@ -617,6 +620,10 @@ hr {
         margin-right: auto;
         margin-left: auto;
         width: 50%;
+    }
+    
+    #comment-field {
+        width:50%;
     }
 
 }
